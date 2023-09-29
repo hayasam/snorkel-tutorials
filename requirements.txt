@@ -9,4 +9,10 @@ black==19.3b0
 flake8==3.7.8
 jupyter==1.0.0
 jupytext==1.2.0
-nbconvert==5.5.0
+nbconvert==6.3.0b0
+ipython>=8.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
+jupyter-core>=4.11.2 # not directly required, pinned by Snyk to avoid a vulnerability
+notebook>=6.4.12 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments>=2.15.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability
