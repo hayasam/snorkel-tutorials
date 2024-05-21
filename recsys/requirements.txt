@@ -2,3 +2,4 @@ gdown==3.8.1
 numpy==1.16.4
 tensorflow==1.14.0
 textblob==0.15.3
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
