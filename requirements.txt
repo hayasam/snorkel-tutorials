@@ -5,8 +5,20 @@ snorkel==0.9.5
 
 #### DEV TOOLS
 
-black==19.3b0
+black==24.3.0
 flake8==3.7.8
 jupyter==1.0.0
 jupytext==1.2.0
-nbconvert==5.5.0
+nbconvert==6.3.0b0
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+ipython>=8.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
+jupyter-server>=2.14.1 # not directly required, pinned by Snyk to avoid a vulnerability
+networkx>=2.6 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+scikit-learn>=1.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+torch>=2.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
