@@ -1,3 +1,9 @@
 pandas>=0.24.0,<0.25.0
-scikit-learn>=0.20.2
+scikit-learn>=0.24.2
 textblob==0.15.3
+joblib>=1.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
+nltk>=3.8.1 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+scipy>=1.10.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
+tqdm>=4.66.3 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
