@@ -2,3 +2,5 @@ matplotlib==3.1.1
 pytorch-transformers==1.0.0
 tensorflow==1.14.0
 textblob==0.15.3
+torch>=2.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
