@@ -2,3 +2,5 @@ gdown==3.8.1
 numpy==1.16.4
 tensorflow==1.14.0
 textblob==0.15.3
+protobuf>=6.33.5 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
